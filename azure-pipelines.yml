@@ -28,7 +28,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'rkDockerHub'
-        repository: 'rahulkhandelwal/rkwebapi'
+        repository: 'rahulkhandelwal27/rkwebapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
